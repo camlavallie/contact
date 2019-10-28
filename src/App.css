@@ -1,3 +1,23 @@
+@media only screen and (min-width: 375px) {
+body {
+  width: 100%;
+  height: auto;
+}
+}
+@media only screen and (min-width: 768px) {
+body {
+  width: 100%;
+  height: auto;
+}
+}
+@media only screen and (max-width: 3200px) {
+  body {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
 input {
   margin-right: 10px;
 }
