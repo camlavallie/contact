@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Header() {
   return (
-    <div>
-      
-    </div>
+    <nav className="navbar navbar-dark bg-dark">
+  <a className="navbar-brand" href="/">Frontend React Challenge</a>
+</nav>
   )
 }
