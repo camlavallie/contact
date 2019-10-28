@@ -1,22 +1,61 @@
-.App {
-  text-align: center;
+input {
+  margin-right: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
+
+input[type="checkbox"]:checked+span {
+  background-color: #6b8cc0;
+  color:white;
+  font-style: normal;
+  padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+pre {
+  color: #585d67;
+  padding: 10px;
+  margin: 10px;
 }
 
-.App-link {
-  color: #09d3ac;
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  background-color: #fafafa;
+  border: 1px solid #cacece;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05),
+    inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 9px;
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.regular-checkbox:active,
+.regular-checkbox:checked:active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05),
+    inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.regular-checkbox:checked {
+  background-color: #ffffff;
+  border: 1px solid #adb8c0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05),
+    inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05),
+    inset 15px 10px -12px rgba(255, 255, 255, 0.1);
+  color: #cc3300;
+}
+
+.regular-checkbox:checked:after {
+  content: "\2714";
+  font-size: 14px;
+  color: #99a1a7;
+}
+
+.big-checkbox {
+  font-size: 10px;
+ 
+}
+
+.big-checkbox:checked:after {
+  font-size: 10px;
+
 }
