@@ -22,7 +22,6 @@ class Contact extends Component{
           />
           <span className="checkmark">{name}</span></label>
          {showId ? (<pre className="list-group-item">{number}</pre>) : null}
-
       </div>
     </div>
   </div>
