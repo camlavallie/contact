@@ -8,7 +8,7 @@ export default function Footer() {
           <a 
             className="navbar-brand" 
             href="https://github.com/camlavallie/contact"
-            target="noreferrer"
+            target="blank"
             >
 
             <h3 
