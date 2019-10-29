@@ -7,7 +7,9 @@ export default function Footer() {
         className="navbar navbar bg-light">
           <a 
             className="navbar-brand" 
-            href="https://github.com/camlavallie/contact">
+            href="https://github.com/camlavallie/contact"
+            target="noreferrer"
+            >
 
             <h3 
             style={{
